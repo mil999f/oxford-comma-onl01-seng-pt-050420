@@ -4,7 +4,7 @@ def oxford_comma(array)
     array = boy girl
      array.insert(1,"and").join(" ")
  elsif array.length > 2 
-  array.insert(-2, "and ")
+  array[-1].insert(0, "and ")
   array.join(", ")
   end  
 end
