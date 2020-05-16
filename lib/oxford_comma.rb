@@ -7,3 +7,16 @@ def oxford_comma(array)
   array.join(", ")
   end  
 end
+
+
+def of(arry)
+  if array.length == 1 
+    array.join
+    elsif array.lenth == 2 
+    array[0] << (" and ")
+    array.join
+  else array.length > 2 
+    array[-1].prepend "and "
+    array.join(", ")
+  end
+end
